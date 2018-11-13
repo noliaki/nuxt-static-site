@@ -1,0 +1,12 @@
+.hoge-enter,
+.hoge-leave-to {
+  opacity: 0;
+}
+.hoge-enter-active,
+.hoge-leave-active {
+  transition: opacity 500ms linear;
+}
+.hoge-enter-to,
+.hoge-leave {
+  opacity: 1;
+}

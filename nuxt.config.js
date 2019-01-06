@@ -1,6 +1,7 @@
 const TerserPlugin = require('terser-webpack-plugin')
 
 module.exports = {
+  srcDir: 'src/',
   /*
   ** Headers of the page
   */
@@ -35,6 +36,9 @@ module.exports = {
   /*
   ** Build configuration
   */
+  generate: {
+    dir: 'dist'
+  },
   build: {
     /*
     ** Run ESLint on save

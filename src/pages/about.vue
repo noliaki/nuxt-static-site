@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    ABOUT
+    <AppLogo />
   </section>
 </template>
 
